@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lajesh Dineshkumar — Android Lead Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">LD<span class="accent">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-content">
+      <p class="hero-greeting animate-in">Hello, I'm</p>
+      <h1 class="hero-name animate-in delay-1">Lajesh<br/><span class="accent">Dineshkumar</span></h1>
+      <p class="hero-tagline animate-in delay-2">Android Lead Engineer · Associate Director at UBS</p>
+      <p class="hero-description animate-in delay-3">
+        With 15+ years of experience architecting and delivering world-class Android applications,
+        I specialize in building scalable mobile solutions for the banking and enterprise sector.
+        Certified Scrum Master &amp; Certified Scrum Product Owner.
+      </p>
+      <div class="hero-actions animate-in delay-4">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-scroll animate-in delay-5">
+        <a href="#about" class="scroll-indicator">
+          <span>Scroll</span>
+          <div class="scroll-line"></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <div class="about-image-wrapper">
+            <div class="about-avatar">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="about-image-border"></div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p class="about-intro">
+            I'm a Lead Android Developer with a proven track record of architecting and
+            delivering high-impact mobile applications across banking, fintech, and enterprise domains.
+          </p>
+          <p>
+            Currently serving as <strong>Associate Director at UBS</strong> in Doha, Qatar,
+            I lead the development of sophisticated Android solutions for one of the world's
+            leading financial institutions. My career has taken me across India, the United States,
+            the UAE, and Qatar — working with global companies including HP, Nagarro, and Winnow.
+          </p>
+          <p>
+            I'm passionate about clean architecture, modular design patterns, and mentoring
+            engineering teams. I hold a patent for cloud service activation from mobile devices
+            (co-invented during my time at HP) and actively contribute to the Android open-source community.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">4</span>
+              <span class="stat-label">Countries Worked</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">1</span>
+              <span class="stat-label">Patent Holder</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">Skills &amp; Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <div class="skill-icon"><i class="fab fa-android"></i></div>
+          <h3>Android Development</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Kotlin</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Jetpack Compose</span>
+            <span class="skill-tag">Jetpack Libraries</span>
+            <span class="skill-tag">MVVM</span>
+            <span class="skill-tag">Clean Architecture</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+          <h3>Architecture &amp; Patterns</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Modular Architecture</span>
+            <span class="skill-tag">MVP</span>
+            <span class="skill-tag">MVVM</span>
+            <span class="skill-tag">Dagger2 / Hilt</span>
+            <span class="skill-tag">Coroutines</span>
+            <span class="skill-tag">RxJava</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-icon"><i class="fas fa-vial"></i></div>
+          <h3>Testing &amp; Quality</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">JUnit 5</span>
+            <span class="skill-tag">Espresso</span>
+            <span class="skill-tag">MockK</span>
+            <span class="skill-tag">Retrofit2</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">Code Review</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-icon"><i class="fas fa-users-cog"></i></div>
+          <h3>Leadership &amp; Agile</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Certified Scrum Master</span>
+            <span class="skill-tag">Certified CSPO</span>
+            <span class="skill-tag">Team Leadership</span>
+            <span class="skill-tag">Mentoring</span>
+            <span class="skill-tag">Agile / Scrum</span>
+            <span class="skill-tag">Technical Strategy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-title reveal">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Associate Director</h3>
+              <span class="timeline-date">Feb 2024 — Present</span>
+            </div>
+            <p class="timeline-company">UBS · Doha, Qatar</p>
+            <p>Leading Android development initiatives at one of the world's largest
+            financial institutions. Driving mobile engineering strategy, architectural
+            decisions, and team delivery across the wealth management platform.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Technical Lead</h3>
+              <span class="timeline-date">Nov 2021 — Jan 2024</span>
+            </div>
+            <p class="timeline-company">Winnow · Dubai, UAE</p>
+            <p>Led the Android engineering team, driving architecture and delivery of the
+            core product. Rapidly assumed leadership role, mentored developers, and
+            delivered high-quality mobile software tackling complex technical challenges.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Technical Lead</h3>
+              <span class="timeline-date">Mar 2017 — Oct 2021</span>
+            </div>
+            <p class="timeline-company">Nagarro · Dubai, UAE</p>
+            <p>Architected and led development of major mobile banking applications including
+            Emirates NBD, ADIB, and Emirates Islamic banking apps — used by millions of
+            customers across the UAE.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Senior Software Engineer</h3>
+              <span class="timeline-date">Jun 2016 — Feb 2017</span>
+            </div>
+            <p class="timeline-company">QuEST Global · Thiruvananthapuram, India</p>
+            <p>Delivered enterprise-grade software solutions, contributing senior-level
+            engineering expertise to complex mobile and system-level projects.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Software Engineer (Deputation at HP)</h3>
+              <span class="timeline-date">2014 — 2016</span>
+            </div>
+            <p class="timeline-company">Accel Frontline · Fort Collins, CO &amp; San Diego, CA</p>
+            <p>Worked on-site at Hewlett-Packard developing HP Smart and HP JetAdvantage Capture
+            Android applications. Co-invented a patent for cloud service activation from
+            mobile devices.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Software Engineer</h3>
+              <span class="timeline-date">May 2010 — Jun 2016</span>
+            </div>
+            <p class="timeline-company">Accel Frontline Ltd · Trivandrum, India</p>
+            <p>Started career as a trainee and grew through the ranks to Technical Lead.
+            Built foundational expertise in Android development, contributing to multiple
+            enterprise projects over 6 years.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-placeholder"><i class="fas fa-university"></i></div>
+          </div>
+          <div class="project-info">
+            <h3>Emirates NBD Mobile Banking (ENBD X)</h3>
+            <p>A cutting-edge mobile banking app serving millions of Emirates NBD customers.
+            Features include instant services, digital wealth management, account
+            management, and secure biometric authentication.</p>
+            <div class="project-tech">
+              <span>Android</span><span>Kotlin</span><span>MVVM</span><span>Jetpack</span>
+            </div>
+            <div class="project-links">
+              <a href="https://play.google.com/store/apps/details?id=com.emiratesnbd.android" target="_blank" class="project-link"><i class="fab fa-google-play"></i> Play Store</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-placeholder"><i class="fas fa-mosque"></i></div>
+          </div>
+          <div class="project-info">
+            <h3>ADIB Mobile Banking</h3>
+            <p>Full-featured Islamic mobile banking application with account management,
+            fund transfers, bill payments, card management, Sukuk donations, and
+            biometric login — with Arabic and English support.</p>
+            <div class="project-tech">
+              <span>Android</span><span>Java</span><span>Clean Architecture</span><span>REST APIs</span>
+            </div>
+            <div class="project-links">
+              <a href="https://play.google.com/store/apps/details?id=com.adib.mbanking" target="_blank" class="project-link"><i class="fab fa-google-play"></i> Play Store</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-placeholder"><i class="fas fa-money-bill-wave"></i></div>
+          </div>
+          <div class="project-info">
+            <h3>Emirates Islamic Mobile Banking</h3>
+            <p>Banking services app with domestic/international fund transfers, utility payments,
+            account management, and branch queue ticketing — supporting both Arabic and English.</p>
+            <div class="project-tech">
+              <span>Android</span><span>Kotlin</span><span>MVP</span><span>Dagger2</span>
+            </div>
+            <div class="project-links">
+              <a href="https://play.google.com/store/apps/details?id=com.s4m" target="_blank" class="project-link"><i class="fab fa-google-play"></i> Play Store</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-placeholder"><i class="fas fa-print"></i></div>
+          </div>
+          <div class="project-info">
+            <h3>HP Smart (HP All-in-One Printer Remote)</h3>
+            <p>Global-scale Android app for HP printer setup, scanning, printing, and sharing.
+            Features intelligent mobile scanning with auto-deskew, cloud integration,
+            and supply management.</p>
+            <div class="project-tech">
+              <span>Android</span><span>Java</span><span>Cloud APIs</span><span>Wi-Fi Direct</span>
+            </div>
+            <div class="project-links">
+              <a href="https://play.google.com/store/apps/details?id=com.hp.printercontrol" target="_blank" class="project-link"><i class="fab fa-google-play"></i> Play Store</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-placeholder"><i class="fas fa-camera"></i></div>
+          </div>
+          <div class="project-info">
+            <h3>HP JetAdvantage Capture</h3>
+            <p>Enterprise document capture app enabling users to snap, store, and route
+            digital files from smartphones. Controls scan jobs on HP MFPs and scanners
+            directly from mobile devices.</p>
+            <div class="project-tech">
+              <span>Android</span><span>Java</span><span>Enterprise</span><span>HP SDK</span>
+            </div>
+            <div class="project-links">
+              <a href="https://play.google.com/store/apps/details?id=com.hp.hpscanandcapture" target="_blank" class="project-link"><i class="fab fa-google-play"></i> Play Store</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-placeholder"><i class="fab fa-github"></i></div>
+          </div>
+          <div class="project-info">
+            <h3>Open Source — Clean Architecture Kotlin</h3>
+            <p>A popular open-source Android project demonstrating Clean Architecture
+            with Kotlin, modular design, Jetpack libraries, and best practices.
+            70+ stars on GitHub.</p>
+            <div class="project-tech">
+              <span>Kotlin</span><span>Clean Architecture</span><span>Jetpack</span><span>Coroutines</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Lajesh/clean-architecture-kotlin" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Awards Section -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <h2 class="section-title reveal">Certifications &amp; Awards</h2>
+      <div class="certs-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+          <h3>Certified Scrum Product Owner (CSPO)</h3>
+          <p class="cert-issuer">Scrum Alliance · Oct 2025</p>
+          <a href="https://bcert.me/bc/html/show-badge.html?b=rabgtjsa" target="_blank" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+          <h3>Certified ScrumMaster (CSM)</h3>
+          <p class="cert-issuer">Scrum Alliance · Jul 2024</p>
+          <a href="https://bcert.me/sgsneiefr" target="_blank" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>US Patent — Cloud Service Activation</h3>
+          <p class="cert-issuer">Co-inventor · Hewlett-Packard</p>
+          <a href="http://google.com/patents/WO2016028279A1?cl=en" target="_blank" class="cert-link">View Patent <i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <div class="contact-wrapper reveal">
+        <p class="contact-intro">
+          I'm always open to new opportunities, collaborations, or just a friendly chat
+          about Android development and mobile architecture. Feel free to reach out!
+        </p>
+
+        <div class="contact-cards">
+          <a href="mailto:lajeshds2020@gmail.com" class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+            <h4>Email</h4>
+            <p>lajeshds2020@gmail.com</p>
+          </a>
+          <a href="tel:+97430137353" class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+            <h4>Phone (Qatar)</h4>
+            <p>+974 3013 7353</p>
+          </a>
+          <a href="tel:+918129620355" class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+            <h4>Phone (India)</h4>
+            <p>+91 8129 620 355</p>
+          </a>
+        </div>
+
+        <form class="contact-form" id="contactForm" action="https://formsubmit.co/ajax/lajeshds2020@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New message from your portfolio website" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="text" name="_honey" style="display:none" />
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+
+        <div class="contact-social">
+          <a href="https://github.com/Lajesh" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://qa.linkedin.com/in/lajesh-d-111b7626" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:lajeshds2020@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+97430137353" class="social-link" aria-label="Phone"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2026 Lajesh Dineshkumar. Crafted with care.</p>
+        <p class="footer-location"><i class="fas fa-map-marker-alt"></i> Doha, Qatar</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
